@@ -13,8 +13,7 @@ body {
     border: 0;
     color: white;
     padding: 15px 35px;
-    font-size: 20px
-    font-weight: 700;
+    font-size: 20px font-weight: 700;
 
 }
 
@@ -23,6 +22,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 150px;
 }
 
 .nav-title {
@@ -46,4 +46,59 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header related styles */
+header {
+    background-color: #FFF8F3;
+    /* width: 1500px;
+    height: 837px; */
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-image: url(/images/developer.png);
+    background-position: left; */
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 500px;
+
+}
+
+.banner-msg {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 30px;
+}
+
+.banner-img {
+    width: 500px;
+    /* height: 676px; */
+    /* background-image: url(/images/header_bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+     */
 }
